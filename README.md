@@ -4,8 +4,19 @@
 $ npm i @rocketseat/eslint-config -D
 ```
 
-## Configuring Prisma
+## Prisma
 
+### Configuring Prisma
 ```
 $ npx prisma init --datasource-provider SQLite
+```
+
+### Migrations
+```
+$ npx prisma migrate dev
+```
+
+### Prisma Studio
+```
+$ npx prisma studio
 ```
