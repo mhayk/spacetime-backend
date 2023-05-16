@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhayk/spacetime-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhayk/spacetime-backend/issues"
+  },
+  "homepage": "https://github.com/mhayk/spacetime-backend#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.6",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  }
+}
